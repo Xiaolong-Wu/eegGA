@@ -8,7 +8,6 @@ This Introduction is temporary, mainly for the editors and reviewers of the jour
 
 
 The main part of these codes (especially eegGA) is independently developed by Xiaolong Wu (Copyright) of Beijing University of Science and Technology. Please pay attention to our subsequent updates, and reasonably cite our research results and use our codes.
-
 The codes in the eegGA part implement feature extraction, group analysis, and subsequent cluster analysis, time series analysis, and establishment of classification models for EEG. In addition, the generated feature set file can also be used for further deep learning in Python language (folder LSTM-CNN).
 
 
