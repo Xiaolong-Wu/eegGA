@@ -7,6 +7,9 @@ This Introduction is temporary, mainly for the editors and reviewers of the jour
 The main part of these codes (especially eegGA) is independently developed by Xiaolong Wu (Copyright) of Beijing University of Science and Technology. Please pay attention to our subsequent updates, and reasonably cite our research results and use our codes.
 The codes in the eegGA part implement feature extraction, group analysis, and subsequent cluster analysis, time series analysis, and establishment of classification models for EEG. In addition, the generated feature set file can also be used for further deep learning in Python language (folder LSTM-CNN).
 
+If there is the willing to quickly experience the operation of the codes and see the results, please download the version given in the link (and this version provides some specific code used in our submitted manuscript, and some original data):
+https://drive.google.com/drive/folders/1HqLQ9K-7nof0WeCbWOCCAgXAD0KkLzWZ?usp=share_link
+
 (MATLAB R2014a, PyCharm 2020.1.1, Community Edition; the compilation environment and configuration, Python 3.5, tensorflow-gpu 1.10.0, keras 2.2.2, etc.)
 
 # Function Introduction of eegGA
