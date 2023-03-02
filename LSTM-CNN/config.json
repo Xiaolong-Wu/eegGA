@@ -1,0 +1,60 @@
+{
+	"data": {
+		"filename": "",
+		"n_class": 2
+	},
+	"training": {
+		"epochs": "",
+		"batch_size": 1024
+	},
+	"model": {
+		"name": "LSTMCNN",
+		"loss": "mse",
+		"optimizer": "adam",
+		"save_dir": "saved_models",
+		"layers": [
+			{
+				"type": "lstm",
+				"neurons": 100,
+				"return_seq": true
+			},
+			{
+				"type": "dropout",
+				"rate": 0.2
+			},
+			{
+				"type": "lstm",
+				"neurons": 100,
+				"return_seq": true
+			},
+			{
+				"type": "conv1d",
+                "kernel_num": 128,
+                "kernel_size": 3,
+                "strides": 1,
+				"activation": "relu"
+			},
+			{
+				"type": "maxpooling1d",
+                "pool_size": 2,
+                "strides": 2
+			},
+			{
+				"type": "dropout",
+				"rate": 0.2
+			},
+			{
+				"type": "flatten"
+			},
+			{
+				"type": "dense",
+				"neurons": 100,
+				"activation": "relu"
+			},
+			{
+				"type": "dense",
+				"activation": "softmax"
+			}
+		]
+	}
+}
