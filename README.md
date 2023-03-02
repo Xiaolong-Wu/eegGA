@@ -14,20 +14,19 @@ https://drive.google.com/drive/folders/1HqLQ9K-7nof0WeCbWOCCAgXAD0KkLzWZ?usp=sha
 
 # Function Introduction of eegGA
 1 Functions that require adjustment of parameters
-
 File path: eegGA\…
 
 1.1 Functions for run properties
 
 1.1.1 run_clear
-
 Close figures, clear variables, clear command window, reset default path settings, etc.
 
 1.1.2 run_featureShow
 The visualization during feature extraction and in each space and time, for the original signal, time-frequency spectrum diagram, and feature values.
-1.1.3 run_featureAnalysisShow
 
+1.1.3 run_featureAnalysisShow
 Visualization of the results of feature analysis.
+
 1.1.4 run_featureClassification
 Cluster analysis, time series analysis, classification using simple artificial neural networks or support vector machines, and feature set construction and visualization.
 1.2 Functions for parameter setting properties
