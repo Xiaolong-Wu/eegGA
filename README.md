@@ -13,6 +13,11 @@ If there is the willing to quickly experience the operation of the codes and see
 https://drive.google.com/drive/folders/1HqLQ9K-7nof0WeCbWOCCAgXAD0KkLzWZ?usp=share_link
 
 
+References:
+https://doi.org/10.1016/j.jneumeth.2022.109690
+https://doi.org/10.1016/j.compbiomed.2023.107652
+
+
 (MATLAB R2014a, PyCharm 2020.1.1, Community Edition; the compilation environment and configuration, Python 3.5, tensorflow-gpu 1.10.0, keras 2.2.2, etc.)
 
 
