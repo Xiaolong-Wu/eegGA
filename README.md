@@ -8,12 +8,12 @@ The main part of these codes (especially eegGA) is independently developed by Xi
 The codes in the eegGA part implement feature extraction, group analysis, and subsequent cluster analysis, time series analysis, and establishment of classification models for EEG. In addition, the generated feature set file can also be used for further deep learning in Python language (folder LSTM-CNN).
 
 
-If there is the willing to quickly experience the operation of the codes and see the results, please download the version given in the link (this version provides some specific code used in our submitted manuscript, and a small amount of original data):
+If there is the willing to quickly experience the operation of the codes and see the results, please download the version given in the link (this version provides some specific code used in our article, and a small amount of original data):
 
 https://drive.google.com/drive/folders/1HqLQ9K-7nof0WeCbWOCCAgXAD0KkLzWZ?usp=share_link
 
 
-References:
+Articles:
 
 https://doi.org/10.1016/j.jneumeth.2022.109690
 
