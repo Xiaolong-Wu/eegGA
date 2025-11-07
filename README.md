@@ -19,6 +19,9 @@ https://doi.org/10.1016/j.jneumeth.2022.109690
 
 https://doi.org/10.1016/j.compbiomed.2023.107652
 
+https://doi.org/10.1007/s11571-025-10360-9
+(https://github.com/Xiaolong-Wu/eegGAN)
+
 
 (MATLAB R2014a, PyCharm 2020.1.1, Community Edition; the compilation environment and configuration, Python 3.5, tensorflow-gpu 1.10.0, keras 2.2.2, etc.)
 
